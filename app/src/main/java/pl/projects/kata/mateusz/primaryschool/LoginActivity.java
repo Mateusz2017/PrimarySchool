@@ -3,6 +3,7 @@ package pl.projects.kata.mateusz.primaryschool;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -88,6 +89,8 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             @Override
             public void onClick(View view) {
                 attemptLogin();
+                Intent intent = new Intent(LoginActivity.this, Gradebook.class);
+                startActivity(intent);
             }
         });
 
@@ -178,15 +181,15 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         }
 
         // Check for a valid email address.
-        if (TextUtils.isEmpty(email)) {
-            mEmailView.setError(getString(R.string.error_field_required));
-            focusView = mEmailView;
-            cancel = true;
-        } else if (!isEmailValid(email)) {
-            mEmailView.setError(getString(R.string.error_invalid_email));
-            focusView = mEmailView;
-            cancel = true;
-        }
+//        if (TextUtils.isEmpty(email)) {
+//            mEmailView.setError(getString(R.string.error_field_required));
+//            focusView = mEmailView;
+//            cancel = true;
+//        } else if (!isEmailValid(email)) {
+//            mEmailView.setError(getString(R.string.error_invalid_email));
+//            focusView = mEmailView;
+//            cancel = true;
+//        }
 
         if (cancel) {
             // There was an error; don't attempt login and focus the first

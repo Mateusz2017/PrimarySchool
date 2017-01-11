@@ -83,12 +83,15 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.nav_plan) {
-            // Handle the camera action
+            Intent intent = new Intent(MainActivity.this, ScheduleActivity.class);
+            startActivity(intent);
         } else if (id == R.id.nav_dziennik) {
             Intent intent = new Intent(MainActivity.this, LoginActivity.class);
             startActivity(intent);
 
         } else if (id == R.id.nav_chat) {
+            Intent intent = new Intent(MainActivity.this, Chat.class);
+            startActivity(intent);
 
         } else if (id == R.id.nav_zamknij) {
                 finish();

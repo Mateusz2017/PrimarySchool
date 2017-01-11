@@ -31,6 +31,12 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="pl.projects.kata.mateusz.primaryschool.MainActivity" />
         </activity>
+        <activity
+            android:name=".ScheduleActivity"
+            android:label="@string/title_activity_schedule"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".Chat" />
+        <activity android:name=".Gradebook"></activity>
     </application>
 
 </manifest>

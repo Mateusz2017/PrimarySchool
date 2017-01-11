@@ -6,7 +6,7 @@
 
     <string name="action_settings">Settings</string>
     <string name="title_activity_login">Logowanie</string>
-
+    <string name="title">Przyroda</string>
     <!-- Strings related to login -->
     <string name="prompt_pesel">PESEL</string>
     <string name="prompt_password">Password (optional)</string>
@@ -19,4 +19,44 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="title_activity_schedule">ScheduleActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string-array name="klas">
+        <item>IA</item>
+        <item>2B</item>
+        <item>3C</item>
+    </string-array>
+
+    <string-array name="lesson">
+        <item>1. Wychowanie fizyczne 8.00</item>
+        <item>2. Przyroda 10.00</item>
+        <item>3. Język polski 11.30</item>
+        <item>4. Geografia 13.00</item>
+    </string-array>
+
+    <string-array name="oceny1">
+        <item>Przyroda</item>
+        <item>Sprawdzian 5</item>
+        <item>Kartkówka 2</item>
+        <item>Odpowiedz 3</item>
+    </string-array>
+
+    <string-array name="oceny2">
+        <item>Geografia</item>
+        <item>Sprawdzian 5</item>
+        <item>Kartkówka 2</item>
+        <item>Odpowiedz 3</item>
+    </string-array>
+
+    <string-array name="oceny3">
+        <item>Język angielski</item>
+        <item>Sprawdzian 5</item>
+        <item>Kartkówka 2</item>
+        <item>Odpowiedz 3</item>
+    </string-array>
 </resources>
