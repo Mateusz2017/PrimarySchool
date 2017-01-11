@@ -29,11 +29,13 @@
         android:layout_marginTop="11dp"
         android:id="@+id/spinner2"
         android:entries="@array/oceny3"
+        android:background="#ff0"
         android:layout_below="@+id/spinner"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <Spinner
+        android:background="#ff0"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="39dp"
@@ -46,6 +48,7 @@
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:background="#ff0"
         android:id="@+id/spinner"
         android:entries="@array/oceny2"
         android:layout_marginTop="12dp"
@@ -59,6 +62,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/spinner2"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="35dp"
+        android:layout_marginTop="100dp"
         android:id="@+id/button" />
 </RelativeLayout>

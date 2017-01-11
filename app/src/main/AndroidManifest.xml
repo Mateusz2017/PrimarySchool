@@ -33,7 +33,7 @@
         </activity>
         <activity
             android:name=".ScheduleActivity"
-            android:label="@string/title_activity_schedule"
+            android:label="Plan Lekcji"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".Chat" />
         <activity android:name=".Gradebook"></activity>
